@@ -135,6 +135,7 @@ use Fuel\Core\Asset;
 <?= Asset::js('bootstrap.min.js') ?>
 <?= Asset::js('bootstrap-table.js') ?>
 <?= Asset::js('fontawesome.min.js') ?>
+<?= Asset::js('lumino.glyphs.js')?>
 <script>
     !function ($) {
         $(document).on("click", "ul.nav li.parent > a > span.icon", function () {
